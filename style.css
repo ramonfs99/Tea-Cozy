@@ -10,7 +10,6 @@ body{
 }
 
 header{
-    display: inline-block;
     border-bottom: 1px solid seashell;
     height: 69px;
     background-color: inherit;
@@ -136,6 +135,6 @@ footer h2{
 }
 
 .copyright{
-    float: left;
     margin-left: 20px;
+    text-align: left;
 }
