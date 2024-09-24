@@ -22,7 +22,7 @@ header{
 header img{
     margin-left: 10px;
     height: 50px;
-}
+     }
 
 li a{
     text-decoration: underline;
@@ -121,4 +121,21 @@ header li{
     height: fit-content;
     background-color: black;
     text-align: center;
+}
+
+footer{
+    position:relative;
+    top: 120px;
+    background-color: inherit;
+    height: 200px;
+    text-align: center;
+}
+
+footer h2{
+    margin: 10px;
+}
+
+.copyright{
+    float: left;
+    margin-left: 20px;
 }
