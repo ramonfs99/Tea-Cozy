@@ -89,3 +89,36 @@ header li{
     text-align: center;
 }
 
+.locations{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    background-image: url(assets/img-locations-background.webp);
+    justify-content: center;
+    
+}
+
+.locations h2{
+    position:relative;
+    top:30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.location-containers{
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.location-container{
+    width: 300px;
+    line-height: 40px;
+    height: fit-content;
+    background-color: black;
+    text-align: center;
+}
