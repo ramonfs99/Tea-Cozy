@@ -1,0 +1,41 @@
+body{
+    display:grid;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    justify-content: center;
+}
+
+header{
+    display: inline-block;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: inherit;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header img{
+    margin-left: 10px;
+    height: 50px;
+}
+
+li a{
+    text-decoration: underline;
+    color: seashell;
+    padding: 12px;
+}
+
+header ul{
+    list-style-type: none;
+    float: inline-end;
+}
+
+header li{
+    float: inline-start;
+}
+
