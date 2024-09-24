@@ -59,3 +59,27 @@ header li{
     text-align: center;
     align-content: center;
 }
+
+.totm{
+    position:relative;
+    top: 120px;
+    width: 1000px;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+}
+
+.images{
+    position: relative;
+    top:100px;
+    justify-content: center;
+    justify-self: center;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
